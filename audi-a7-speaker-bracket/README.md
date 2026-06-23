@@ -56,4 +56,16 @@ Successfully designed, manufactured, and deployed a custom speaker mounting brac
 
 ## Photos
 
-*Add CAD screenshots, prototype photos, and final installation images here.*
+## CAD Model
+
+![FreeCAD Model](images/Mount-Cad.png)
+
+## Prototype
+
+![PLA Prototype](images/Prototype.jpg)
+
+## Layering
+
+![Diagonal Printing Direction](images/Layers.jpg)
+
+
