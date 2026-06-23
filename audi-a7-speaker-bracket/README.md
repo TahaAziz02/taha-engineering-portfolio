@@ -51,7 +51,7 @@ Successfully designed, manufactured, and deployed a custom speaker mounting brac
 
 ## CAD Model
 
-[Download FreeCAD Model](cad/audi-a7-speaker-bracket.FCStd)
+[Download FreeCAD Model](CAD/SpeakerMount-AudiA7.FCStd)
 
 ## Photos
 
