@@ -33,26 +33,25 @@ Reverse-engineered the factory mounting interface through measurement and inspec
 
 ## Tools & Technologies
 
-- FreeCAD
+- CAD Design: FreeCAD
 - 3D Printing
-- PETG Prototype Manufacturing
+- PETG Manufacturing
 - Dimensional Measurement
 - Reverse Engineering
 - Mechanical Design
 
 ## Skills Demonstrated
 
-- CAD Design
-- Reverse Engineering
-- Design for Manufacturing (DFM)
-- Rapid Prototyping
-- Mechanical Design
 - Problem Solving
 - Iterative Design Process
 
 ## Outcome
 
 Successfully designed, manufactured, and deployed a custom speaker mounting bracket that enabled aftermarket speaker integration without permanent vehicle modifications. The brackets have remained installed and fully functional for over one year, enduring vehicle vibration and Alberta's extreme temperature fluctuations without structural degradation, fitment issues, or failure.
+
+## CAD Model
+
+![Speaker Bracket CAD Model](CAD/SpeakerMount-AudiA7.FCStd)
 
 ## Photos
 
