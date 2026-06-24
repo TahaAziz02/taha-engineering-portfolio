@@ -99,7 +99,7 @@ Sensor data was transmitted using LoRa to a local gateway and forwarded to the b
 
 ### Embedded Firmware
 
-![System Architecture](images/System_Architecture.png)
+![Firmware](images/
 
 #### ESP32 Camera Nodes
 
