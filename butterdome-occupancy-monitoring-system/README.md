@@ -153,7 +153,7 @@ Features included:
 - Region filtering
 - Zone configuration tools
 
-![Dashboard](images/Dashboard.png)
+![Dashboard](images/DashBoard.png)
 
 ---
 
