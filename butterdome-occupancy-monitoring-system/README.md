@@ -39,7 +39,7 @@ The system continuously collects occupancy information, stores historical record
 
 ## System Architecture
 
-![System Architecture](images/system-architecture.png)
+![System Architecture](images/System_Architecture.png)
 
 ### Data Flow
 
@@ -52,6 +52,8 @@ The system continuously collects occupancy information, stores historical record
 ---
 
 ## Camera-Based Occupancy Detection
+
+![Camera-Based Occupancy Detection](images/Camera.png)
 
 ### Hardware
 
@@ -75,8 +77,6 @@ Occupancy was determined using the RAPiD (Rotation-Aware People Detection) model
 
 ## Time-of-Flight Occupancy Sensors
 
-![Time-of-Flight Occupancy Sensors](images/Lora.png)
-
 ### Hardware
 
 - VL53L8CX Time-of-Flight Sensor
@@ -98,6 +98,8 @@ Sensor data was transmitted using LoRa to a local gateway and forwarded to the b
 ## Software Architecture
 
 ### Embedded Firmware
+
+![System Architecture](images/System_Architecture.png)
 
 #### ESP32 Camera Nodes
 
@@ -151,6 +153,8 @@ Features included:
 - Region filtering
 - Zone configuration tools
 
+![Dashboard](images/Dashboard.png)
+
 ---
 
 ## Engineering Challenges
@@ -163,7 +167,7 @@ To address this, cameras were mounted at high elevations and only used for overh
 
 ### Multiple Sensor Technologies
 
-Different spaces required different sensing approaches.
+Different spaces require different sensing approaches.
 
 Large open recreational areas were best monitored using computer vision, while smaller studios benefited from Time-of-Flight sensors that required lower bandwidth and improved privacy.
 
