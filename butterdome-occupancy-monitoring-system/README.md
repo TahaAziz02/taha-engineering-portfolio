@@ -75,6 +75,8 @@ Occupancy was determined using the RAPiD (Rotation-Aware People Detection) model
 
 ## Time-of-Flight Occupancy Sensors
 
+![Time-of-Flight Occupancy Sensors](images/Lora.png)
+
 ### Hardware
 
 - VL53L8CX Time-of-Flight Sensor
