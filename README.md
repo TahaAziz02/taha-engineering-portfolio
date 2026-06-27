@@ -7,7 +7,7 @@ Electrical Engineer focused on embedded systems, robotics, controls, industrial 
 ### Reconstructed Audi Speaker Bracket 
 Designed and manufactured a custom speaker mounting bracket for a 2012 Audi A7 using CAD and additive manufacturing techniques. Reverse-engineered mounting geometry, verified fitment constraints, and accounted for structural loading, vibration, and installation requirements to enable aftermarket speaker integration.
 
-### Occupancy Monitoring System
+### Smart Space Management System
 Computer vision and sensor-based monitoring system for tracking facility usage.
 
 ### FSAE Battery Thermistor Board
