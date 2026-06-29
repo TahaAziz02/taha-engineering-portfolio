@@ -53,8 +53,6 @@ The system continuously collects occupancy information, stores historical record
 
 ## Camera-Based Occupancy Detection
 
-![Camera-Based Occupancy Detection](images/Camera.png)
-
 ### Hardware
 
 - ESP32-S3 DevKitC
@@ -73,6 +71,7 @@ Images were captured every 30 seconds and transmitted to the backend server usin
 
 Occupancy was determined using the RAPiD (Rotation-Aware People Detection) model optimized for overhead fisheye camera views.
 
+![Camera-Based Occupancy Detection](images/Camera.png)
 ---
 
 ## Time-of-Flight Occupancy Sensors
@@ -87,11 +86,17 @@ Occupancy was determined using the RAPiD (Rotation-Aware People Detection) model
 
 Studio spaces required a privacy-preserving solution that could detect entries and exits without capturing images.
 
-The ToF sensors monitored distance changes and used multi-zone ranging to determine movement direction and occupancy counts.
+### How It Works
+
+To preserve user privacy while maintaining accurate occupancy tracking, studio spaces utilize a VL53L8CX Time-of-Flight sensor rather than a camera.
+
+The sensor emits infrared (IR) pulses and measures their return time to calculate object distance. Its 4×4 ranging grid is divided into two logical regions representing the front and back of a doorway. By detecting the order in which these regions are crossed, the firmware determines whether a person is entering or exiting the room and updates the occupancy count in real time.
 
 ### Communication
 
 Sensor data was transmitted using LoRa to a local gateway and forwarded to the backend database.
+
+![ToF_Sensor](images/ToF_Sensor.png)
 
 ---
 
