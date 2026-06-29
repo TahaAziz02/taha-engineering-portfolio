@@ -177,9 +177,9 @@ Large open recreational areas were best monitored using computer vision, while s
 
 The Butterdome contains multiple activity zones within a single camera view.
 
-A configurable zone-mapping system was developed that allowed facility staff to define occupancy regions through the web dashboard without modifying firmware. A snapshot of the UI is provided below: 
+A configurable zone-mapping system was developed that allowed facility staff to define occupancy regions through the web dashboard without modifying firmware. A snapshot of the configurable regions for each camera is provided below: 
 
-![Detection Zone UI](images/Detection_Zone_UI.png)
+![Configurable Regions for Sensors](images/Configuration_Regions_Sensors_Ui.png)
 
 ### System Scalability
 
