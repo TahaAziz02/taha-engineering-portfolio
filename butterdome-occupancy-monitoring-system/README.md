@@ -224,3 +224,13 @@ The project demonstrated successful integration of embedded systems, computer vi
 - System Integration
 
 ---
+
+## Schematics 
+
+### Studio Sensors
+
+![Studio Sensor Schematic](images/Studio_Sensor_ToF_Sch.png)
+
+### Butter Dome Camera
+
+![Butter Dome Camera](images/Butter_Dome_Camera_Sch.png)
