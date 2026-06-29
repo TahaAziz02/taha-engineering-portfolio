@@ -163,7 +163,9 @@ Features included:
 
 A key challenge was developing an occupancy monitoring solution that respected user privacy.
 
-To address this, cameras were mounted at high elevations and only used for overhead occupancy counting. Images were processed automatically and were not intended for identifying individuals.
+To address this, cameras were mounted at high elevations and only used for overhead occupancy counting. Images were processed automatically and were not intended for identifying individuals. An example of this is provided below: 
+
+![RAPiD Algorithm](images/RAPiD_Algorithm.png)
 
 ### Multiple Sensor Technologies
 
@@ -175,7 +177,9 @@ Large open recreational areas were best monitored using computer vision, while s
 
 The Butterdome contains multiple activity zones within a single camera view.
 
-A configurable zone-mapping system was developed that allowed facility staff to define occupancy regions through the web dashboard without modifying firmware.
+A configurable zone-mapping system was developed that allowed facility staff to define occupancy regions through the web dashboard without modifying firmware. A snapshot of the UI is provided below: 
+
+![Detection Zone UI](images/Detection_Zone_UI.png)
 
 ### System Scalability
 
