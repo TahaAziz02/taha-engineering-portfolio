@@ -165,7 +165,7 @@ A key challenge was developing an occupancy monitoring solution that respected u
 
 To address this, cameras were mounted at high elevations and only used for overhead occupancy counting. Images were processed automatically and were not intended for identifying individuals. An example of this is provided below: 
 
-![RAPiD Algorithm](images/RAPiD.png)
+![RAPiD Algorithm](images/RAPiD_Algorithm_Snapshot.png)
 
 ### Multiple Sensor Technologies
 
