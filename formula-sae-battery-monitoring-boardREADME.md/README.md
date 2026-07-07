@@ -116,11 +116,13 @@ Contributed to the successful development of a battery temperature monitoring so
 
 ## Photos
 
-### PCB Layout
-![PCB 3D Layout](images/In-Seg-Board-3D.png)
-
 ### Schematic
+![PCB Schematic](images/In-Seg-Board-Sch.png)
 
-### Battery Module Integration
+### PCB Layout
+![PCB Layout](images/In-Seg-Board-Layout.png)
 
-### Formula SAE Vehicle
+### PCB 3D Viewer
+![PCB 3D Layout](images/In-Seg-Board-3D].png)
+
+
