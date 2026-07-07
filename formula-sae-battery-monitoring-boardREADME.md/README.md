@@ -1,4 +1,4 @@
-# Formula SAE EV Battery Monitoring Board
+# Formula SAE EV In-Segment Battery Monitoring Board
 
 ## Overview
 
