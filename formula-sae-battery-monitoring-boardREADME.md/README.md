@@ -117,7 +117,7 @@ Contributed to the successful development of a battery temperature monitoring so
 ## Photos
 
 ### Schematic
-![PCB Schematic](images/In-Seg-Board-Sch.png)
+![PCB Schematic](images/In-Seg-Sch.png)
 
 ### PCB Layout
 ![PCB Layout](images/In-Seg-Layout.png)
