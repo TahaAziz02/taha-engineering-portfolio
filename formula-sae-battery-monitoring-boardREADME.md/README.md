@@ -89,7 +89,9 @@ Connector locations were selected to minimize harness length while maintaining a
 
 The board was designed to interface directly with the Orion BMS using electrically isolated 10kΩ NTC thermistors with a common β value of 3380 K.
 
-Maintaining identical thermistor characteristics and proper electrical isolation was essential for accurate temperature monitoring and safe operation.
+**Maintaining identical thermistor characteristics and proper electrical isolation was essential for accurate temperature monitoring and safe operation.**
+
+
 ---
 
 ## Skills Demonstrated
