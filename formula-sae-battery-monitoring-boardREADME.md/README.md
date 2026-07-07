@@ -53,22 +53,43 @@ The PCB was designed with emphasis on:
 
 ## Engineering Challenges
 
-### Sensor Placement
+### Thermistor Interface Architecture
 
-Thermistors needed to accurately represent pouch-cell temperatures while remaining accessible for installation and maintenance.
+Previous accumulator designs used thermistors connected in series due to the battery modules utilizing thermal diodes rather than true NTC thermistors. The redesigned system instead routes each thermistor independently to the connector, allowing every sensor to be monitored individually by the BMS.
 
-### PCB Routing
+This architecture required routing 54 dedicated thermistor signal lines while maintaining a compact PCB footprint and organized connector layout.
 
-Signal routing required careful consideration to minimize noise while maintaining a compact board footprint compatible with the battery module.
+---
 
-### Packaging Constraints
+### Redundant Voltage Measurement
 
-The monitoring board had to integrate within limited battery enclosure space while accommodating mechanical mounting and connector accessibility.
+The accumulator was designed to support redundant voltage sensing for each battery cell.
 
-### Rule Compliance
+Each cell includes three independent voltage taps with separate fusing to provide fault tolerance for the battery management system. This architecture allows the system to continue operating even if individual voltage taps or fuses fail.
 
-Throughout development, the design was evaluated against Formula SAE Electric regulations to ensure compliance with electrical safety and battery monitoring requirements.
+Connector placement was optimized so that each cell tap was located adjacent to its corresponding busbar, reducing wiring complexity while simplifying assembly and maintenance.
 
+---
+
+### Mechanical Integration
+
+The PCB had to fit completely within the battery module while avoiding interference with:
+
+- Cell compression hardware
+- Busbars
+- High-voltage connections
+- Battery tabs
+- Service access
+
+Connector locations were selected to minimize harness length while maintaining accessibility during assembly and maintenance.
+
+---
+
+### Electrical Safety
+
+The board was designed to interface directly with the Orion BMS using electrically isolated 10kΩ NTC thermistors with a common β value of 3380 K.
+
+Maintaining identical thermistor characteristics and proper electrical isolation was essential for accurate temperature monitoring and safe operation.
 ---
 
 ## Skills Demonstrated
