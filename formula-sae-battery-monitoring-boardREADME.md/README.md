@@ -57,7 +57,7 @@ The PCB was designed with emphasis on:
 
 Previous accumulator designs used thermistors connected in series due to the battery modules utilizing thermal diodes rather than true NTC thermistors. The redesigned system instead routes each thermistor independently to the connector, allowing every sensor to be monitored individually by the BMS.
 
-This architecture required routing 54 dedicated thermistor signal lines while maintaining a compact PCB footprint and organized connector layout.
+This architecture required routing 27 dedicated thermistor signal lines while maintaining a compact PCB footprint and organized connector layout.
 
 ---
 
