@@ -120,9 +120,9 @@ Contributed to the successful development of a battery temperature monitoring so
 ![PCB Schematic](images/In-Seg-Board-Sch.png)
 
 ### PCB Layout
-![PCB Layout](images/In-Seg-Board-Layout.png)
+![PCB Layout](images/In-Seg-Layout.png)
 
 ### PCB 3D Viewer
-![PCB 3D Layout](images/In-Seg-Board-3D].png)
+![PCB 3D Layout](images/In-Seg-Board-3D.png)
 
 
