@@ -16,13 +16,13 @@ The final system was completed and functional during the internship. This portfo
 
 ### Prototype Pump Test Setup
 
-![Prototype pump test setup](media/pump-test-setup.jpg)
+![Prototype pump test setup](images/pump-test-setup.jpg)
 
 The pump test setup was used to validate the water circulation portion of the cooling system. The prototype included a AC water pump, tubing, relay-controlled switching hardware, flow sensing, and wiring used during early system testing.
 
 ### Early Control Sketch
 
-![Early control sketch](media/rough-control-sketch.jpg)
+![Early control sketch](images/rough-control-sketch.jpg)
 
 The early control sketch captured the main embedded interface requirements, including the microcontroller, display output, buzzer drive circuit, analog setpoint input, temperature sensing, and basic input mapping.
 
