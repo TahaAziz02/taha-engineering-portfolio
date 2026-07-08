@@ -15,7 +15,7 @@ PCB design project for monitoring battery cell temperatures using NTC thermistor
 
 ### Smart CNC Spindle Cooling System
 
-Arduino Nano-based water cooling controller for a CNC machine spindle. The system monitored spindle-side temperature, activated a relay-controlled AC water pump when a user-defined threshold was exceeded, verified coolant flow using a flow sensor, and provided operator feedback through a 4-digit display and buzzer. Through operational observation, the system improved CNC machine uptime by approximately 40% by reducing cooling-related interruptions and manual pump monitoring.
+Arduino Nano-based water cooling controller for a CNC machine spindle. Through operational observation, the system improved CNC machine uptime by approximately 40% by reducing cooling-related interruptions and manual pump monitoring.
 
 ### Embedded Telemetry Computer
 Long-term embedded systems project focused on IMU sensing, telemetry, SD logging, watchdog logic, and fault handling.
